@@ -23,4 +23,8 @@ public class Proceso
     {
         System.out.println("hola");
     }
+    public void nombres()
+    {
+        System.out.println("heeeeeeeeeeeeeeeloo");
+    }
 }
