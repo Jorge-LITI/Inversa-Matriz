@@ -28,4 +28,8 @@ public class Proceso
     {
         System.out.println("Licea Tinajero Jorge Luis");
     }
+    Public vois names()
+    {
+        System.out.println("Licea Tinajero Jorge Luis");
+    }
 }
