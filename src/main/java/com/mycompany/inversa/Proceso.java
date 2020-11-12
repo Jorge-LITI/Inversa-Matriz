@@ -25,6 +25,11 @@ public class Proceso
     }
     public void nombres()
     {
+        System.out.println(""Hernandez Granados Luis Fernando");
+                           
         System.out.println("heeeeeeeeeeeeeeeloo");
+        System.out.println("Hola jorge Xd como estas?")
+            
+            
     }
 }
