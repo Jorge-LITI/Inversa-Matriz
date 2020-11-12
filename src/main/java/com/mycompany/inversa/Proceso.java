@@ -23,4 +23,9 @@ public class Proceso
     {
         System.out.println("hola");
     }
+    
+    public void Licea()
+    {
+        System.out.println("Licea Tinajero Jorge Luis");
+    }
 }
