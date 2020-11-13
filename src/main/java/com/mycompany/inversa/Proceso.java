@@ -36,6 +36,25 @@ public class Proceso
              System.out.println();
         }
     }
+ //
+    public void signo()
+    {
+        for(int i=0;i<fil;i++)
+        {
+            for(int j=0;j<col;j++)
+            {
+                if(Mat[i][j]%2==0)
+                {
+                    System.out.println("+");
+                }
+                else
+                {
+                    System.out.println("-");
+                }
+            }
+        }
+    }
+//nombres de los integrantes de un equipo
     public void nombres()
     {
         System.out.println("Hernandez Granados Luis Fernando");
