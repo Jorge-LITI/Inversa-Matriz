@@ -57,9 +57,10 @@ public class Proceso
 //nombres de los integrantes de un equipo
     public void nombres()
     {
+        System.out.println("Este programa fue elavorado por: );
+        System.out.println("Jorge");
+        System.out.println("Oscar");
         System.out.println("Hernandez Granados Luis Fernando");
-        System.out.println("heeeeeeeeeeeeeeeloo");
-        System.out.println("Hola jorge Xd como estas?");
             
     }
     
