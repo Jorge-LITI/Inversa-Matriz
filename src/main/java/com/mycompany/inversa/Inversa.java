@@ -14,6 +14,7 @@ public class Inversa
 {
 //@author Jorge Licea
 //@author Luis Hernandez
+//@author Oscar Morales
 
     public static void main(String [] args)
     {
