@@ -1,35 +1,47 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package com.mycompany.inversa;
+import java.util.Scanner;
 
-/**
- *
- * @author Jorge Licea
- */
 public class Proceso 
 {
     int fil;
     int col;
+    double Mat[][];
+    Scanner leer=new Scanner(System.in);
     public Proceso(int fil,int col)
     {
         this.fil=fil;
         this.col=col;
+        Mat=new double [fil][col];
     }
     
     public void Pedir()
     {
-        System.out.println("hola");
+        for(int i=0;i<fil;i++)
+        {
+            for(int j=0;j<col;j++)
+            {
+                System.out.println("["+(i+1)+"]"+"["+(j+1)+"]: ");
+                Mat[i][j]=leer.nextDouble();
+            }
+        }
+    }
+    public void imprimir()
+    {
+        for(int i=0;i<fil;i++)
+        {
+            for(int j=0;j<col;j++)
+            {
+                System.out.print(Mat[i][j]+" |");
+            }
+             System.out.println();
+        }
     }
     public void nombres()
     {
-        System.out.println(""Hernandez Granados Luis Fernando");
-                           
+        System.out.println("Hernandez Granados Luis Fernando");
         System.out.println("heeeeeeeeeeeeeeeloo");
-        System.out.println("Hola jorge Xd como estas?")
-            
+        System.out.println("Hola jorge Xd como estas?");
             
     }
+    
 }
